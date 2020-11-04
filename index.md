@@ -111,8 +111,8 @@ Pour sécuriser votre base de données, voici la commande à taper:
 `mysql_secure_installation`
 
 Entrez votre mot de passe "root", puis changez le mot de passe:
-`Change the root password? [Y/n] => y
-New password:`
+```sh Change the root password? [Y/n] => y
+New password:```
 
 Desactivez maintenant les connexions anonymes:
 `Remove anonymous users? [Y/n] => y`
