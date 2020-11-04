@@ -5,7 +5,7 @@ published: true
 
 tags: [jekyll]
 
-title: Faire son blog avec Jekyll
+title: Test
 description: Pourquoi et comment créer son blog avec Jekyll plutôt qu'un bon vieux Wordpress des familles.
 ---
 
