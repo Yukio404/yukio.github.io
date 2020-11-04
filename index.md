@@ -111,8 +111,8 @@ Pour sécuriser votre base de données, voici la commande à taper:
 `mysql_secure_installation`
 
 Entrez votre mot de passe "root", puis changez le mot de passe:
-```sh Change the root password? [Y/n] => y
-New password:```
+`Change the root password? [Y/n] => y
+New password:`
 
 Desactivez maintenant les connexions anonymes:
 `Remove anonymous users? [Y/n] => y`
@@ -155,8 +155,7 @@ Relancez ensuite le serveur **Apache** grâce à cette commande:
 `sudo service apache2 restart`
 
 Pour vous connectez, vous devez créer un utilisateur possédant les droits administrateurs comme suit:
-`mysql -u root -p
-[mot de passe]
+`mysql -u root -p <password>
 MariaDB [(none)]> CREATE USER 'my_user'@'localhost' IDENTIFIED BY 'my_password';
 MariaDB [(none)]> GRANT ALL PRIVILEGES ON * . * TO 'my_user'@'localhost';
 MariaDB [(none)]> FLUSH PRIVILEGES;`
