@@ -32,7 +32,7 @@ L'installation
 Etape 1: la mise à jour du système
 ---------------
 
-Commençons par nous connecter à l'utilisateur "root" via la commande`su`
+Commençons par nous connecter à l'utilisateur "root" via la commande `su`
 Afin d'être sur que tous les packages puissent être installés, il faut mettre à jour votre système via cette commande:
 ```sh
 apt update && apt upgrade -y
