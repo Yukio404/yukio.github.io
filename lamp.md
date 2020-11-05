@@ -107,10 +107,10 @@ sudo service apache2 restart
 Etape 4: installation de PHP
 ---------------
 
-Ici, nous utiliserons la version 5 de **php**.
+Ici, nous utiliserons la version la plus récente de **php**, la version 7.4.
 Pour l'installer, tapez cette commande:
 ```sh
-sudo apt install php5-common libapache2-mod-php5 php5-cli
+sudo apt install php7.4-common libapache2-mod-php7.4 php7.4-cli
 ```
 
 Pour vérifier notre installation, executez ces deux commandes:
@@ -128,7 +128,7 @@ L'éditeur **nano** vient de s'ouvrir dans votre terminal, recopiez les lignes c
 Accédez ensuite au fichier via votre navigateur: [localhost/info.php](http://127.0.0.1/info.php)
 
 Vous devriez voir une page listant toutes les spécifités de **php** ressemblant à ça
-![php5](php5.png)
+![php5](php7.png)
 
 Une fois ce test fais, je vous recommande vivement de supprimer le fichier info.php que nous venons de créer, en effet, il n'est pas recommandé de donner publiquement des détails sur votre configuration.
 
