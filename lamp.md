@@ -107,7 +107,7 @@ sudo service apache2 restart
 Etape 4: installation de PHP
 ---------------
 
-Ici, nous utiliserons la version la plus récente de **php**, la version 7.4.
+Ici, nous utiliserons la version la plus récente de **php**, la version 7.4.    
 Pour l'installer, tapez cette commande:
 ```sh
 sudo apt install php7.4-common libapache2-mod-php7.4 php7.4-cli
