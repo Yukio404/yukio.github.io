@@ -13,7 +13,7 @@ Introduction
 3. My-sql
 4. Le langage de programmation **php**
 
-Ces 4 technologies forment une **pile** (stack en anglais) vous permettant l'hebergement de vos *sites* ou de vos *applications web dynamiques*.
+Ces 4 technologies forment une **pile** (stack en anglais) vous permettant l'hébergement de vos *sites* ou de vos *applications web dynamiques*.
 
 Dans ce tuto, nous allons voir comment mettre en place ces 4 outils et installer PhpMyAdmin afin de gérer notre Base De Données grâce à une interface graphique.
 
