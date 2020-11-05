@@ -23,7 +23,7 @@ Pré-Requis
 
 1. Des bases administratives sur Linux
 2. Un système d'exploitation basé sur Debian
-3. Une connection **ssh** si vous n'avez pas d'accès physique à la machine
+3. Une connexion **ssh** si vous n'avez pas d'accès physique à la machine
 
 
 L'installation
@@ -107,7 +107,7 @@ sudo service apache2 restart
 Etape 4: installation de PHP
 ---------------
 
-Ici, nous utiliserons la version la plus récente de **php**, la version 5.
+Ici, nous utiliserons la version 5 de **php**.
 Pour l'installer, tapez cette commande:
 ```sh
 sudo apt install php5-common libapache2-mod-php5 php5-cli
@@ -136,7 +136,7 @@ Une fois ce test fais, je vous recommande vivement de supprimer le fichier info.
 Etape 5: installation de **MySQL**
 ---------------
 
-Attaquon nous maintenant au système de base de données.
+Attaquons nous maintenant au système de base de données.
 
 ```sh
 sudo apt install mysql-server
