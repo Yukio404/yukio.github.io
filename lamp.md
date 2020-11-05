@@ -98,11 +98,13 @@ Pour stopper **Apache**:
 sudo systemctl stop apache2 
 ```
 
-Pour relancer **Appache**:
+Pour relancer **Apache**:
 ```sh
 sudo systemctl restart apache2 
 ```
 
+⚠️ Un firewall peut poser problème avec **Apache**
+Si vous avez des difficultés pour accéder à votre serveur via une autre machine dans le réseau local, le problème peut venir du firewall ⚠️
 
 Etape 4: installation de PHP
 ---------------
