@@ -1,7 +1,7 @@
 ---
+theme: jekyll-theme-hacker
 layout: lamp
 title: Installation de LAMP
-theme: jekyll-theme-hacker
 ---
 
 Introduction
