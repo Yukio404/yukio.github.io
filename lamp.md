@@ -52,15 +52,15 @@ adduser mynewuser
 ```
 Ici, *mynewuser* sera notre nom d'utilisateur. Vous pouvez le remplacer par celui voulu.
 
-Il vous sera demander plusieurs informations.
-Certaines optionnelles tels que votre numéro de téléphone ou votre nom par exemple, d'autres seront obligatoires, votre mot de passe par exemple.
+Il vous sera demandé plusieurs informations.
+Certaines optionnelles telles que votre numéro de téléphone ou votre nom par exemple, d'autres seront obligatoires, votre mot de passe par exemple.
 
-Une fois notre utilisateur crée, il nous faut le rajouter au groupe **sudo**.
+Une fois notre utilisateur créé, il nous faut le rajouter au groupe **sudo**.
 Pour cela, tapez cette commande:
 ```sh
 usermod -aG sudo mynewuser
 ```
-*mynewuser* étant mon nom d'utilisateur, remplacez le par celui crée.
+*mynewuser* étant mon nom d'utilisateur, remplacez le par celui créé.
 
 Enfin, connectons nous à ce compte grâce à cette commande:
 ```sh
@@ -73,13 +73,13 @@ Etape 3: installation du serveur web **Apache**
 
 Maintenant que notre Linux est prêt, installons et configurons **Apache**
 
-Nous allons installer la version 2. Pour ce faire, c'est très simple, il vous suffit de taper cette commande:
+Nous allons installer la version 2. Pour se faire, c'est très simple, il vous suffit de taper cette commande:
 ```sh
 sudo apt install apache2 apache2-doc
 ```
 
 
-Si tout s'est bien passé, vous avez maintenant accès à une la page web par défaut d'**Apache** à cette adresse: [localhost](http://127.0.0.1/) qui devrait ressembler à quelque chose dans ce genre
+Si tout s'est bien passé, vous avez maintenant accès à la page web par défaut d'**Apache** à cette adresse: [localhost](http://127.0.0.1/) qui devrait ressembler à quelque chose dans ce genre
 ![apache2](apache.png)
 
 Pour vérifier l'état du service **Apache**:
@@ -113,13 +113,13 @@ Pour l'installer, tapez cette commande:
 sudo apt install php7.4-common libapache2-mod-php7.4 php7.4-cli
 ```
 
-Pour vérifier notre installation, executez ces deux commandes:
+Pour vérifier notre installation, exécutez ces deux commandes:
 ```sh
 cd /var/www/html
 sudo nano info.php
 ```
 
-L'éditeur **nano** vient de s'ouvrir dans votre terminal, recopiez les lignes ci dessous dans l'editeur:
+L'éditeur **nano** vient de s'ouvrir dans votre terminal, recopiez les lignes ci dessous dans l'éditeur:
 ```php
 <?php
 	phpinfo();
@@ -127,7 +127,7 @@ L'éditeur **nano** vient de s'ouvrir dans votre terminal, recopiez les lignes c
 ```
 Accédez ensuite au fichier via votre navigateur: [localhost/info.php](http://127.0.0.1/info.php)
 
-Vous devriez voir une page listant toutes les spécifités de **php** ressemblant à ça
+Vous devriez voir une page listant toutes les spécifités de **php** ressemblante à ça
 ![php7](https://static.tutoandco.colas-delmas.fr/uploads/2020/06/phpinfo-php7.4.png)
 
 Une fois ce test fais, je vous recommande vivement de supprimer le fichier info.php que nous venons de créer, en effet, il n'est pas recommandé de donner publiquement des détails sur votre configuration.
@@ -155,12 +155,12 @@ Change the root password? [Y/n] => y
 New password:
 ```
 
-Desactivez maintenant les connexions anonymes:
+Désactivez maintenant les connexions anonymes:
 ```sh
 Remove anonymous users? [Y/n] => y
 ```
 
-Desactivez la connexion "root" à distance:
+Désactivez la connexion "root" à distance:
 ```sh
 Disallow root login remotely? [Y/n] => y
 ```
@@ -185,7 +185,7 @@ MariaDB [(none)]> exit
 Etape 6: installation de PhpMyAdmin
 ---------------
 
-La création de notre serveur LAMP est terminée, mais je vous conseil de suivre cette étape afin de gérer vos bases de données plus facilement. 
+La création de notre serveur LAMP est terminée, mais je vous conseille de suivre cette étape afin de gérer vos bases de données plus facilement. 
 Bien entendu, c'est vous qui décidez ;).
 
 Pour l'installer, tapez cette commande:
@@ -194,9 +194,9 @@ sudo apt install phpmyadmin
 ```
 
 Cochez **apache2** puis faites entrée.
-Acceptez l'aide à la configuration, puis rentrez le mot de passe que vous voulez.
+Acceptez l'aide à la configuration, puis entrez le mot de passe que vous voulez.
 
-Afin d'accéder à l'interface **PhpMyAdmin**, editez le fichier de configuration **apache** via cette commande:
+Afin d'accéder à l'interface **PhpMyAdmin**, éditez le fichier de configuration **apache** via cette commande:
 ```sh
 sudo nano /etc/apache2/apache2.conf
 ```
@@ -212,7 +212,7 @@ Relancez ensuite le serveur **Apache** grâce à cette commande:
 sudo systemctl restart apache2 
 ```
 
-Pour vous connectez, vous devez créer un utilisateur possédant les droits administrateurs comme suit:
+Pour vous connecter, vous devez créer un utilisateur possédant les droits administrateurs comme suit:
 ```sh
 mysql -u root -p <password>
 MariaDB [(none)]> CREATE USER 'my_user'@'localhost' IDENTIFIED BY 'my_password';
@@ -223,6 +223,6 @@ MariaDB [(none)]> FLUSH PRIVILEGES;
 Accédez ensuite à votre interface: [localhost/phpmyadmin](http://127.0.0.1/phpmyadmin/)
 
 
-Et voila ! Le tuto est fini.
-Si vous avez des question ou si vous voulez me donner votre avis ainsi que des idées de tuto ou d'améliorations, contactez moi sur discord: *Yukio#6174*
+Et voilà ! Le tuto est fini.
+Si vous avez des questions ou si vous voulez me donner vos avis ainsi que des idées de tutos ou d'améliorations, contactez moi sur discord: *Yukio#6174*
 
