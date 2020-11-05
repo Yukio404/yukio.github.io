@@ -223,4 +223,4 @@ Accédez ensuite à votre interface: [localhost/phpmyadmin](http://127.0.0.1/php
 
 Et voila ! Le tuto est fini.
 Si vous avez des question ou si vous voulez me donner votre avis ainsi que des idées de tuto ou d'améliorations, contactez moi sur discord: *Yukio#6174*
-***
+
