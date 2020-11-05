@@ -84,23 +84,23 @@ Si tout s'est bien passé, vous avez maintenant accès à une la page web par d�
 
 Pour vérifier l'état du service **Apache**:
 ```sh
-sudo service apache2 status
+sudo systemctl status apache2
 ```
 Si la mention ***active (running)*** apparait, alors **Apache** est lancé.
 
 Pour lancer **Apache**:
 ```sh
-sudo service apache2 start
+sudo systemctl start apache2 
 ```
 
 Pour stopper **Apache**:
 ```sh
-sudo service apache2 stop
+sudo systemctl stop apache2 
 ```
 
 Pour relancer **Appache**:
 ```sh
-sudo service apache2 restart
+sudo systemctl restart apache2 
 ```
 
 
@@ -209,7 +209,7 @@ Include /etc/phpmyadmin/apache.conf
 
 Relancez ensuite le serveur **Apache** grâce à cette commande:
 ```sh
-sudo service apache2 restart
+sudo systemctl restart apache2 
 ```
 
 Pour vous connectez, vous devez créer un utilisateur possédant les droits administrateurs comme suit:
