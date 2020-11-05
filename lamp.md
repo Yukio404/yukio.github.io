@@ -1,5 +1,5 @@
 ---
-layout: lamp
+layout: default
 ---
 
 Introduction
