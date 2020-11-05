@@ -1,3 +1,8 @@
+---
+layout: lamp
+title: Installation de LAMP
+---
+
 Introduction
 ===============
 
