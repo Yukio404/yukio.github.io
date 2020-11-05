@@ -128,7 +128,7 @@ L'éditeur **nano** vient de s'ouvrir dans votre terminal, recopiez les lignes c
 Accédez ensuite au fichier via votre navigateur: [localhost/info.php](http://127.0.0.1/info.php)
 
 Vous devriez voir une page listant toutes les spécifités de **php** ressemblant à ça
-![php5](php7.png)
+![php7](https://static.tutoandco.colas-delmas.fr/uploads/2020/06/phpinfo-php7.4.png)
 
 Une fois ce test fais, je vous recommande vivement de supprimer le fichier info.php que nous venons de créer, en effet, il n'est pas recommandé de donner publiquement des détails sur votre configuration.
 
