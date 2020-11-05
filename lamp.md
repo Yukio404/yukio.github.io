@@ -45,7 +45,7 @@ Maintenant, nous sommes sur qu'aucun problème en rapport avec des packages ne s
 Etape 2: créer un nouvel utilisateur avec les privilèges **sudo**
 ---------------
 
-Pour des raisons pratiques mais également de sécurités, nous allons créer un nouvel utilisateur où nous gérerons et installerons notre serveur.
+Pour des raisons pratiques mais également de sécurité, nous allons créer un nouvel utilisateur où nous gèrerons et installerons notre serveur.
 Pour créer l'utilisateur, il vous suffit de taper cette commande dans votre terminal:
 ```sh
 adduser mynewuser
