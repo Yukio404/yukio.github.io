@@ -21,7 +21,8 @@ Pré-Requis
 ==============
 
 1. Des bases administratives sur Linux
-2. Un minimum de logique
+2. Un système d'exploitation basé sur Debian
+3. Une connection **ssh** si vous n'avez pas d'accès physique à la machine
 
 
 L'installation
