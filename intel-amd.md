@@ -11,9 +11,13 @@ Elle se place en seconde position après Intel.
 Ces deux sociétés furent incorporées à Valley, aux Etats-Unis. Ils sont les leaders en matière de recherche et développement dans le domaine.
 Leurs produits sont utilisés dans tous les pays utilisant des ordinateurs.
 
-Pour ce qui est d'**Intel**, leur processeur **Pentium** est placé plus haut que le **Atom** et le **Celeron**, mais moins puissant et moins rapide que la gamme **Core i3 i5, i7, i9** et **Xeon**.
-Le **Pentium** possède une **fréquence d'horloge** plus basse ainsi qu'un **cache L3** partiellement désactivé.
-L'**hyper-threading** ainsi que la **virtualisation** sont égalements désactivés.
+Pour ce qui est d'**Intel**, les processeurs grand public sont hiérarchisés:
+1. Les Atom
+2. Les Celeron (N, J et G)
+3. Les Pentium Gold
+4. Les Core (i3, i5, i7, i9 et Extreme)
 
-Chez **AMD**, c'est le même principe.
-Il y a les **Athlon**, qui sont moins puissants que les séries **A6, 7, 8, 9, 10, 11, 12** et moins puissants que les **Ryzen 3, 5, 7, 9 et Threadripper** 
+Chez **AMD**, c'est le même principe:
+1. Les Athlon (X4 puis G)
+2. Les séries A (6 à 12)
+3. Les Ryzen (3, 5, 7, 9 et Threadripper)
